@@ -1,0 +1,15 @@
+# AI Proxy Rules - China AI Media Tools
+# Aggregated cn media AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+domain_set:
+  - "api.hunyuan.cloud.tencent.com"
+  - "api.minimax.io"
+  - "api.minimaxi.com"
+  - "hunyuan.tencentcloudapi.com"
+domain_suffix_set:
+  - "hailuoai.com"
+  - "hunyuan.tencent.com"
+  - "xingyeai.com"
+  - "yuanbao.tencent.com"
+  - "yuanqi.tencent.com"

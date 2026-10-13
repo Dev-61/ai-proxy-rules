@@ -1,0 +1,302 @@
+# AI Proxy Rules - Overseas AI Coding Tools
+# Aggregated global coding AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Amazon Q Developer / Core
+HOST,aws-language-servers.us-east-1.amazonaws.com,global-coding
+HOST,aws-toolkit-language-servers.amazonaws.com,global-coding
+HOST,client-telemetry.us-east-1.amazonaws.com,global-coding
+HOST,codewhisperer.us-east-1.amazonaws.com,global-coding
+HOST,cognito-identity.us-east-1.amazonaws.com,global-coding
+HOST,idetoolkits-hostedfiles.amazonaws.com,global-coding
+HOST,idetoolkits.amazonwebservices.com,global-coding
+HOST,q-developer-integration.us-east-1.api.aws,global-coding
+HOST-SUFFIX,aws.dev,global-coding
+HOST-SUFFIX,awsapps.com,global-coding
+HOST-SUFFIX,awsstatic.com,global-coding
+HOST-SUFFIX,console.aws.a2z.com,global-coding
+HOST-SUFFIX,q.eu-central-1.amazonaws.com,global-coding
+HOST-SUFFIX,q.us-east-1.amazonaws.com,global-coding
+HOST-SUFFIX,sso.amazonaws.com,global-coding
+
+# Anthropic / Core
+HOST-SUFFIX,anthropic.com,global-coding
+HOST-SUFFIX,anthropic.com.cn,global-coding
+HOST-SUFFIX,antspace.dev,global-coding
+HOST-SUFFIX,clau.de,global-coding
+HOST-SUFFIX,claude.ai,global-coding
+HOST-SUFFIX,claude.app,global-coding
+HOST-SUFFIX,claude.com,global-coding
+HOST-SUFFIX,claude.new,global-coding
+HOST-SUFFIX,claude.site,global-coding
+HOST-SUFFIX,claudemcpclient.com,global-coding
+HOST-SUFFIX,claudemcpcontent.com,global-coding
+HOST-SUFFIX,claudepages.dev,global-coding
+HOST-SUFFIX,claudestudio.com,global-coding
+HOST-SUFFIX,claudeusercontent.com,global-coding
+HOST-SUFFIX,modelcontextprotocol.com,global-coding
+HOST-SUFFIX,modelcontextprotocol.io,global-coding
+HOST-SUFFIX,modelcontextprotocol.net,global-coding
+HOST-SUFFIX,modelcontextprotocol.org,global-coding
+
+# Anthropic / Network
+IP-CIDR,160.79.104.0/21,global-coding,no-resolve
+IP6-CIDR,2607:6bc0::/32,global-coding,no-resolve
+IP-ASN,399358,global-coding,no-resolve
+
+# Anthropic / Third-Party
+HOST,anthropic-com.ghost.io,global-coding
+HOST,anthropic.auth0.com,global-coding
+HOST,anthropic.com.cdn.cloudflare.net,global-coding
+HOST,browser-intake-us5-datadoghq.com,global-coding
+HOST,cdn.growthbook.io,global-coding
+HOST,cdn.usefathom.com,global-coding
+HOST,servd-anthropic-website.b-cdn.net,global-coding
+HOST,storage.googleapis.com,global-coding
+HOST-SUFFIX,anthropic.team,global-coding
+HOST-SUFFIX,chatbotclaude.com,global-coding
+HOST-SUFFIX,claude.dev,global-coding
+HOST-SUFFIX,intercom.io,global-coding
+HOST-SUFFIX,intercomcdn.com,global-coding
+HOST-SUFFIX,interface.feedback,global-coding
+HOST-SUFFIX,lcicat.org,global-coding
+HOST-SUFFIX,lcicollections.org,global-coding
+HOST-SUFFIX,mcpservertest.online,global-coding
+HOST-SUFFIX,muthos.com,global-coding
+HOST-SUFFIX,sentry.io,global-coding
+HOST-SUFFIX,sillylittleguy.org,global-coding
+HOST-SUFFIX,statsigapi.net,global-coding
+HOST-KEYWORD,datadog,global-coding
+HOST-KEYWORD,sentry,global-coding
+HOST-KEYWORD,sift,global-coding
+
+# Augment Code / Core
+HOST-SUFFIX,augmentcode.com,global-coding
+
+# Bolt.new / Core
+HOST-SUFFIX,bolt.new,global-coding
+
+# ByteDance AI / Core
+HOST-SUFFIX,abtestvm-sg.bytedance.com,global-coding
+HOST-SUFFIX,bytegate-sg.byteintlapi.com,global-coding
+HOST-SUFFIX,byteoversea.com,global-coding
+HOST-SUFFIX,cici.com,global-coding
+HOST-SUFFIX,ciciai.com,global-coding
+HOST-SUFFIX,ciciaicdn.com,global-coding
+HOST-SUFFIX,coze.com,global-coding
+HOST-SUFFIX,lf3-static.bytednsdoc.com,global-coding
+HOST-SUFFIX,marscode.com,global-coding
+HOST-SUFFIX,sf16-short-sg.bytedapm.com,global-coding
+HOST-SUFFIX,starling.zijieapi.com,global-coding
+HOST-SUFFIX,trae-api-sg.mchost.guru,global-coding
+HOST-SUFFIX,trae.ai,global-coding
+HOST-SUFFIX,tron-sg.bytelemon.com,global-coding
+
+# Cline / Core
+HOST-SUFFIX,cline.bot,global-coding
+
+# CodeRabbit / Core
+HOST-SUFFIX,coderabbit.ai,global-coding
+
+# Command Code / Core
+HOST-SUFFIX,commandcode.ai,global-coding
+
+# Continue / Core
+HOST-SUFFIX,continue.dev,global-coding
+
+# Copilot / Core
+HOST,location.microsoft.com,global-coding
+HOST,odc.officeapps.live.com,global-coding
+HOST-SUFFIX,copilot.microsoft.com,global-coding
+HOST-SUFFIX,githubcopilot.com,global-coding
+
+# Copilot / Third-Party
+HOST,api.msn.com,global-coding
+HOST,api.statsig.com,global-coding
+HOST,assets.msn.com,global-coding
+HOST,browser-intake-datadoghq.com,global-coding
+HOST,copilot-proxy.githubusercontent.com,global-coding
+HOST,copilot-workspace.githubnext.com,global-coding
+HOST,copilotprodattachments.blob.core.windows.net,global-coding
+HOST,gateway.bingviz.microsoft.net,global-coding
+HOST,gateway.bingviz.microsoftapp.net,global-coding
+HOST,in.appcenter.ms,global-coding
+HOST,self.events.data.microsoft.com,global-coding
+HOST,static.cloudflareinsights.com,global-coding
+HOST,sydney.bing.com,global-coding
+HOST-SUFFIX,algolia.net,global-coding
+HOST-SUFFIX,api.microsoftapp.net,global-coding
+HOST-SUFFIX,auth0.com,global-coding
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io,global-coding
+HOST-SUFFIX,challenges.cloudflare.com,global-coding
+HOST-SUFFIX,client-api.arkoselabs.com,global-coding
+HOST-SUFFIX,edgeservices.bing.com,global-coding
+HOST-SUFFIX,events.statsigapi.net,global-coding
+HOST-SUFFIX,featuregates.org,global-coding
+HOST-SUFFIX,identrust.com,global-coding
+HOST-SUFFIX,launchdarkly.com,global-coding
+HOST-SUFFIX,observeit.net,global-coding
+HOST-SUFFIX,segment.io,global-coding
+HOST-SUFFIX,stripe.com,global-coding
+IP-ASN,14061,global-coding,no-resolve
+
+# CrewAI / Core
+HOST-SUFFIX,crewai.com,global-coding
+
+# Cursor / Core
+HOST-SUFFIX,cursor-cdn.com,global-coding
+HOST-SUFFIX,cursor.com,global-coding
+HOST-SUFFIX,cursor.sh,global-coding
+HOST-SUFFIX,cursorapi.com,global-coding
+
+# Devin / Core
+HOST-SUFFIX,devin.ai,global-coding
+
+# Dify / Core
+HOST-SUFFIX,dify.ai,global-coding
+
+# Factory / Core
+HOST-SUFFIX,factory.ai,global-coding
+
+# Google AI / Core
+HOST-SUFFIX,ai.google.dev,global-coding
+HOST-SUFFIX,ai.studio,global-coding
+HOST-SUFFIX,aistudio.google.com,global-coding
+HOST-SUFFIX,antigravity.google,global-coding
+HOST-SUFFIX,antigravity.google.com,global-coding
+HOST-SUFFIX,bard.google.com,global-coding
+HOST-SUFFIX,deepmind.com,global-coding
+HOST-SUFFIX,deepmind.google,global-coding
+HOST-SUFFIX,gemini.google,global-coding
+HOST-SUFFIX,gemini.google.com,global-coding
+HOST-SUFFIX,generativeai.google,global-coding
+HOST-SUFFIX,generativelanguage.googleapis.com,global-coding
+HOST-SUFFIX,notebooklm.google,global-coding
+HOST-SUFFIX,notebooklm.google.com,global-coding
+
+# Google AI / Third-Party
+HOST,alkalicore-pa.clients6.google.com,global-coding
+HOST,alkalimakersuite-pa.clients6.google.com,global-coding
+HOST,antigravity-pa.googleapis.com,global-coding
+HOST,antigravity.googleapis.com,global-coding
+HOST,cloudaicompanion.googleapis.com,global-coding
+HOST,cloudcode-pa.googleapis.com,global-coding
+HOST,daily-cloudcode-pa.googleapis.com,global-coding
+HOST,geminiweb-pa.clients.google.com,global-coding
+HOST,geminiweb-pa.clients6.google.com,global-coding
+HOST,notebooklm-pa.googleapis.com,global-coding
+HOST,notebooklm.googleapis.com,global-coding
+HOST,webchannel-alkalimakersuite-pa.clients6.google.com,global-coding
+HOST-SUFFIX,aicode.googleapis.com,global-coding
+HOST-SUFFIX,aida.googleapis.com,global-coding
+HOST-SUFFIX,aisandbox-pa.googleapis.com,global-coding
+HOST-SUFFIX,antigravity-unleash.goog,global-coding
+HOST-SUFFIX,flow.google,global-coding
+HOST-SUFFIX,flow.google.com,global-coding
+HOST-SUFFIX,geller-pa.googleapis.com,global-coding
+HOST-SUFFIX,gemini.gstatic.com,global-coding
+HOST-SUFFIX,jules.google,global-coding
+HOST-SUFFIX,jules.google.com,global-coding
+HOST-SUFFIX,labs.google,global-coding
+HOST-SUFFIX,labs.google.com,global-coding
+HOST-SUFFIX,labstailwind.pa.googleapis.com,global-coding
+HOST-SUFFIX,makersuite.google.com,global-coding
+HOST-SUFFIX,notebook.google,global-coding
+HOST-SUFFIX,notebook.google.com,global-coding
+HOST-SUFFIX,opal.google,global-coding
+HOST-SUFFIX,opal.google.com,global-coding
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,global-coding
+HOST-SUFFIX,robinfrontend-pa.googleapis.com,global-coding
+HOST-SUFFIX,stitch.withgoogle.com,global-coding
+
+# JetBrains AI / Core
+HOST-SUFFIX,grazie.ai,global-coding
+HOST-SUFFIX,grazie.aws.intellij.net,global-coding
+HOST-SUFFIX,jetbrains.ai,global-coding
+
+# Kilo / Core
+HOST-SUFFIX,kilo.ai,global-coding
+HOST-SUFFIX,kilo.codes,global-coding
+
+# Kiro / Core
+HOST-SUFFIX,kiro.dev,global-coding
+
+# LangChain / Core
+HOST-SUFFIX,langchain.com,global-coding
+
+# Lovable / Core
+HOST-SUFFIX,lovable.dev,global-coding
+
+# Manus / Core
+HOST-SUFFIX,manus.im,global-coding
+HOST-SUFFIX,manuscdn.com,global-coding
+
+# OpenAI / Core
+HOST-SUFFIX,ai.com,global-coding
+HOST-SUFFIX,chat.com,global-coding
+HOST-SUFFIX,chatgpt.com,global-coding
+HOST-SUFFIX,chatgpt.livekit.cloud,global-coding
+HOST-SUFFIX,crixet.com,global-coding
+HOST-SUFFIX,oaistatic.com,global-coding
+HOST-SUFFIX,oaiusercontent.com,global-coding
+HOST-SUFFIX,openai.com,global-coding
+HOST-SUFFIX,openaiapi-site.azureedge.net,global-coding
+HOST-SUFFIX,openaicom.imgix.net,global-coding
+HOST-SUFFIX,sora.com,global-coding
+HOST-KEYWORD,chatgpt-async-webps-prod,global-coding
+HOST-KEYWORD,openai,global-coding
+
+# OpenAI / Network
+IP-CIDR,199.47.142.0/23,global-coding,no-resolve
+IP-CIDR,24.199.123.28/32,global-coding,no-resolve
+IP-CIDR,64.23.132.171/32,global-coding,no-resolve
+IP6-CIDR,2604:f20::/32,global-coding,no-resolve
+IP-ASN,401518,global-coding,no-resolve
+
+# OpenAI / Third-Party
+HOST,openai-api.arkoselabs.com,global-coding
+HOST,openaiassets.blob.core.windows.net,global-coding
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,global-coding
+HOST,openaicomproductionae4b.blob.core.windows.net,global-coding
+HOST,production-openaicom-storage.azureedge.net,global-coding
+HOST-SUFFIX,api.statsig.com,global-coding
+HOST-SUFFIX,chatgpt.site,global-coding
+HOST-SUFFIX,host.livekit.cloud,global-coding
+HOST-SUFFIX,oaistatsig.com,global-coding
+HOST-SUFFIX,openai.com.cdn.cloudflare.net,global-coding
+HOST-SUFFIX,turn.livekit.cloud,global-coding
+
+# OpenCode / Core
+HOST-SUFFIX,opencode.ai,global-coding
+
+# Qoder / Core
+HOST-SUFFIX,qoder.com,global-coding
+
+# Replit / Core
+HOST-SUFFIX,repl.co,global-coding
+HOST-SUFFIX,repl.it,global-coding
+HOST-SUFFIX,replit.app,global-coding
+HOST-SUFFIX,replit.com,global-coding
+HOST-SUFFIX,replit.dev,global-coding
+
+# Sourcegraph / Core
+HOST-SUFFIX,ampcode.com,global-coding
+HOST-SUFFIX,ampworkers.com,global-coding
+HOST-SUFFIX,cody.dev,global-coding
+HOST-SUFFIX,sourcegraph.com,global-coding
+
+# Tabnine / Core
+HOST-SUFFIX,tabnine.com,global-coding
+
+# v0 / Core
+HOST-SUFFIX,v0.app,global-coding
+HOST-SUFFIX,v0.dev,global-coding
+
+# Windsurf / Core
+HOST-SUFFIX,codeium.com,global-coding
+HOST-SUFFIX,codeiumdata.com,global-coding
+HOST-SUFFIX,windsurf.build,global-coding
+HOST-SUFFIX,windsurf.com,global-coding
+
+# Zed / Core
+HOST-SUFFIX,zed.dev,global-coding

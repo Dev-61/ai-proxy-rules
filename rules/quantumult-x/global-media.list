@@ -1,0 +1,71 @@
+# AI Proxy Rules - Overseas AI Media Tools
+# Aggregated global media AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Adobe Firefly / Core
+HOST-SUFFIX,firefly.adobe.com,global-media
+HOST-SUFFIX,firefly.adobe.io,global-media
+
+# Black Forest Labs / Core
+HOST-SUFFIX,bfl.ai,global-media
+
+# Civitai / Core
+HOST-SUFFIX,civitai.com,global-media
+
+# ClipDrop / Core
+HOST-SUFFIX,clipdrop.co,global-media
+
+# ComfyUI / Core
+HOST-SUFFIX,comfy.org,global-media
+HOST-SUFFIX,comfyregistry.org,global-media
+
+# Descript / Core
+HOST-SUFFIX,descript.com,global-media
+
+# ElevenLabs / Core
+HOST-SUFFIX,elevenlabs.com,global-media
+HOST-SUFFIX,elevenlabs.io,global-media
+
+# HeyGen / Core
+HOST-SUFFIX,heygen.com,global-media
+
+# Ideogram / Core
+HOST-SUFFIX,ideogram.ai,global-media
+
+# Leonardo AI / Core
+HOST-SUFFIX,leonardo.ai,global-media
+
+# Lovart / Core
+HOST-SUFFIX,lovart.ai,global-media
+
+# Luma AI / Core
+HOST-SUFFIX,lumalabs.ai,global-media
+
+# Midjourney / Core
+HOST-SUFFIX,midjourney.com,global-media
+
+# OpenArt / Core
+HOST-SUFFIX,openart.ai,global-media
+
+# Pika / Core
+HOST-SUFFIX,pika.art,global-media
+
+# Recraft / Core
+HOST-SUFFIX,recraft.ai,global-media
+
+# Runway / Core
+HOST-SUFFIX,runway.com,global-media
+HOST-SUFFIX,runwayml.com,global-media
+
+# Stability AI / Core
+HOST-SUFFIX,stability.ai,global-media
+
+# Suno / Core
+HOST-SUFFIX,suno.ai,global-media
+HOST-SUFFIX,suno.com,global-media
+
+# Synthesia / Core
+HOST-SUFFIX,synthesia.io,global-media
+
+# Udio / Core
+HOST-SUFFIX,udio.com,global-media

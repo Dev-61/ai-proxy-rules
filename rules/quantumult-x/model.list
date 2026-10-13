@@ -2,6 +2,19 @@
 # Aggregated model AI provider rules.
 # https://github.com/VPSDance/ai-proxy-rules
 
+# Alibaba AI / Core
+HOST,bailian.console.aliyun.com,model
+HOST,dashscope.aliyuncs.com,model
+HOST,qodercn-jb.oss-cn-hangzhou.aliyuncs.com,model
+HOST-SUFFIX,qianwen.aliyun.com,model
+HOST-SUFFIX,qianwen.com,model
+HOST-SUFFIX,qoder.cn,model
+HOST-SUFFIX,qoder.com.cn,model
+HOST-SUFFIX,qwen.ai,model
+HOST-SUFFIX,qwenlm.ai,model
+HOST-SUFFIX,tongyi.aliyun.com,model
+HOST-SUFFIX,tongyi.com,model
+
 # Anthropic / Core
 HOST-SUFFIX,anthropic.com,model
 HOST-SUFFIX,anthropic.com.cn,model
@@ -53,6 +66,11 @@ HOST-KEYWORD,datadog,model
 HOST-KEYWORD,sentry,model
 HOST-KEYWORD,sift,model
 
+# Baidu AI / Core
+HOST,ernie.baidu.com,model
+HOST,qianfan.baidubce.com,model
+HOST,yiyan.baidu.com,model
+
 # Cerebras / Core
 HOST-SUFFIX,cerebras.ai,model
 
@@ -69,6 +87,10 @@ HOST-SUFFIX,cohere.com,model
 
 # DeepInfra / Core
 HOST-SUFFIX,deepinfra.com,model
+
+# DeepSeek / Core
+HOST-SUFFIX,deepseek.com,model
+HOST-SUFFIX,deepseeksvc.com,model
 
 # Fireworks AI / Core
 HOST-SUFFIX,fireworks.ai,model
@@ -141,8 +163,23 @@ HOST-SUFFIX,lmarena.ai,model
 # LM Studio / Core
 HOST-SUFFIX,lmstudio.ai,model
 
+# MiniMax / Core
+HOST,api.minimax.io,model
+HOST,api.minimaxi.com,model
+HOST-SUFFIX,hailuoai.com,model
+HOST-SUFFIX,xingyeai.com,model
+
 # Mistral AI / Core
 HOST-SUFFIX,mistral.ai,model
+
+# ModelScope / Core
+HOST-SUFFIX,modelscope.cn,model
+HOST-SUFFIX,modelscope.com,model
+
+# Moonshot AI / Core
+HOST-SUFFIX,kimi.com,model
+HOST-SUFFIX,moonshot.ai,model
+HOST-SUFFIX,moonshot.cn,model
 
 # Novita AI / Core
 HOST-SUFFIX,novita.ai,model
@@ -200,10 +237,45 @@ HOST-SUFFIX,turn.livekit.cloud,model
 # OpenRouter / Core
 HOST-SUFFIX,openrouter.ai,model
 
+# PPIO / Core
+HOST-SUFFIX,ppio.cn,model
+HOST-SUFFIX,ppio.com,model
+
 # Replicate / Core
 HOST-SUFFIX,replicate.com,model
 HOST-SUFFIX,replicate.delivery,model
 
+# SiliconFlow / Core
+HOST-SUFFIX,siliconflow.cn,model
+HOST-SUFFIX,siliconflow.com,model
+
+# StepFun / Core
+HOST-SUFFIX,stepfun.ai,model
+HOST-SUFFIX,stepfun.com,model
+
+# Tencent AI / Core
+HOST,api.hunyuan.cloud.tencent.com,model
+HOST,hunyuan.tencentcloudapi.com,model
+HOST-SUFFIX,hunyuan.tencent.com,model
+HOST-SUFFIX,yuanbao.tencent.com,model
+HOST-SUFFIX,yuanqi.tencent.com,model
+
 # Together AI / Core
 HOST-SUFFIX,together.ai,model
 HOST-SUFFIX,together.xyz,model
+
+# Volcengine AI / Core
+HOST,ark.cn-beijing.volces.com,model
+HOST-SUFFIX,doubao.com,model
+
+# Xiaomi AI / Core
+HOST-SUFFIX,miaibox.com,model
+HOST-SUFFIX,xiaoaiassist.com,model
+HOST-SUFFIX,xiaomimimo.com,model
+
+# Zhipu AI / Core
+HOST-SUFFIX,bigmodel.cn,model
+HOST-SUFFIX,chatglm.cn,model
+HOST-SUFFIX,z.ai,model
+HOST-SUFFIX,zhipuai.cn,model
+HOST-SUFFIX,zhipucn.com,model

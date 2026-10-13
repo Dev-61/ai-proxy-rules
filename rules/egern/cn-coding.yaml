@@ -1,0 +1,38 @@
+# AI Proxy Rules - China AI Coding Tools
+# Aggregated cn coding AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+domain_set:
+  - "bailian.console.aliyun.com"
+  - "dashscope.aliyuncs.com"
+  - "qodercn-jb.oss-cn-hangzhou.aliyuncs.com"
+domain_suffix_set:
+  - "coze.cn"
+  - "cozeapp.net"
+  - "cozebaas.cn"
+  - "cozebuild.com"
+  - "cozecdn.com"
+  - "cozedeploy.com"
+  - "cozefn.cn"
+  - "cozeide.cn"
+  - "cozesdk.com"
+  - "doudou.com"
+  - "marscode.cn"
+  - "marscode.com.cn"
+  - "mcbaas.work"
+  - "mcdemo.show"
+  - "mchost.guru"
+  - "mcprev.cn"
+  - "qianwen.aliyun.com"
+  - "qianwen.com"
+  - "qoder.cn"
+  - "qoder.com.cn"
+  - "qwen.ai"
+  - "qwenlm.ai"
+  - "tcwqqdy.guru"
+  - "tongyi.aliyun.com"
+  - "tongyi.com"
+  - "trae.cn"
+  - "trae.com.cn"
+  - "trae.guru"
+  - "yoma.cn"

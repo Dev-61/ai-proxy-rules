@@ -101,9 +101,15 @@ function aggregateProviderSet(
   };
 }
 
-export function aggregateProvidersByCategory(providers: ProviderSource[]): RenderTarget[] {
+export function aggregateProvidersByCategory(
+  providers: ProviderSource[],
+  scope?: ProviderScope
+): RenderTarget[] {
   const byCategory = new Map<ProviderCategory, ProviderSource[]>();
-  for (const provider of providers.filter((provider) => (provider.scope ?? "global") === "global")) {
+  for (const provider of providers) {
+    if (scope && (provider.scope ?? "global") !== scope) {
+      continue;
+    }
     for (const category of provider.categories ?? []) {
       const categoryProviders = byCategory.get(category) ?? [];
       categoryProviders.push(provider);
@@ -125,9 +131,9 @@ export function aggregateProvidersByCategory(providers: ProviderSource[]): Rende
       );
 
       return [{
-        id: category,
-        name: categoryName(category),
-        description: `Aggregated ${category} AI provider rules.`,
+        id: scope ? `${scope}-${category}` : category,
+        name: scope ? `${scope === "cn" ? "China" : "Overseas"} ${categoryName(category)}` : categoryName(category),
+        description: `Aggregated ${scope ? `${scope} ` : ""}${category} AI provider rules.`,
         category,
         groups,
         rules: mergeRuleSets(categoryProviders.map((provider) => provider.rules))

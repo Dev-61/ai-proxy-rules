@@ -2,6 +2,19 @@
 # Aggregated coding AI provider rules.
 # https://github.com/VPSDance/ai-proxy-rules
 
+# Alibaba AI / Core
+HOST,bailian.console.aliyun.com,coding
+HOST,dashscope.aliyuncs.com,coding
+HOST,qodercn-jb.oss-cn-hangzhou.aliyuncs.com,coding
+HOST-SUFFIX,qianwen.aliyun.com,coding
+HOST-SUFFIX,qianwen.com,coding
+HOST-SUFFIX,qoder.cn,coding
+HOST-SUFFIX,qoder.com.cn,coding
+HOST-SUFFIX,qwen.ai,coding
+HOST-SUFFIX,qwenlm.ai,coding
+HOST-SUFFIX,tongyi.aliyun.com,coding
+HOST-SUFFIX,tongyi.com,coding
+
 # Amazon Q Developer / Core
 HOST,aws-language-servers.us-east-1.amazonaws.com,coding
 HOST,aws-toolkit-language-servers.amazonaws.com,coding
@@ -91,6 +104,29 @@ HOST-SUFFIX,starling.zijieapi.com,coding
 HOST-SUFFIX,trae-api-sg.mchost.guru,coding
 HOST-SUFFIX,trae.ai,coding
 HOST-SUFFIX,tron-sg.bytelemon.com,coding
+
+# ByteDance AI (China) / Core
+HOST-SUFFIX,coze.cn,coding
+HOST-SUFFIX,cozeapp.net,coding
+HOST-SUFFIX,cozebaas.cn,coding
+HOST-SUFFIX,cozebuild.com,coding
+HOST-SUFFIX,cozecdn.com,coding
+HOST-SUFFIX,cozedeploy.com,coding
+HOST-SUFFIX,cozefn.cn,coding
+HOST-SUFFIX,cozeide.cn,coding
+HOST-SUFFIX,cozesdk.com,coding
+HOST-SUFFIX,doudou.com,coding
+HOST-SUFFIX,marscode.cn,coding
+HOST-SUFFIX,marscode.com.cn,coding
+HOST-SUFFIX,mcbaas.work,coding
+HOST-SUFFIX,mcdemo.show,coding
+HOST-SUFFIX,mchost.guru,coding
+HOST-SUFFIX,mcprev.cn,coding
+HOST-SUFFIX,tcwqqdy.guru,coding
+HOST-SUFFIX,trae.cn,coding
+HOST-SUFFIX,trae.com.cn,coding
+HOST-SUFFIX,trae.guru,coding
+HOST-SUFFIX,yoma.cn,coding
 
 # Cline / Core
 HOST-SUFFIX,cline.bot,coding

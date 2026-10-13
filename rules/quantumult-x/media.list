@@ -44,6 +44,12 @@ HOST-SUFFIX,lumalabs.ai,media
 # Midjourney / Core
 HOST-SUFFIX,midjourney.com,media
 
+# MiniMax / Core
+HOST,api.minimax.io,media
+HOST,api.minimaxi.com,media
+HOST-SUFFIX,hailuoai.com,media
+HOST-SUFFIX,xingyeai.com,media
+
 # OpenArt / Core
 HOST-SUFFIX,openart.ai,media
 
@@ -66,6 +72,13 @@ HOST-SUFFIX,suno.com,media
 
 # Synthesia / Core
 HOST-SUFFIX,synthesia.io,media
+
+# Tencent AI / Core
+HOST,api.hunyuan.cloud.tencent.com,media
+HOST,hunyuan.tencentcloudapi.com,media
+HOST-SUFFIX,hunyuan.tencent.com,media
+HOST-SUFFIX,yuanbao.tencent.com,media
+HOST-SUFFIX,yuanqi.tencent.com,media
 
 # Udio / Core
 HOST-SUFFIX,udio.com,media

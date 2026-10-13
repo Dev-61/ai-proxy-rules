@@ -45,6 +45,12 @@ payload:
   # Midjourney / Core
   - DOMAIN-SUFFIX,midjourney.com
 
+  # MiniMax / Core
+  - DOMAIN,api.minimax.io
+  - DOMAIN,api.minimaxi.com
+  - DOMAIN-SUFFIX,hailuoai.com
+  - DOMAIN-SUFFIX,xingyeai.com
+
   # OpenArt / Core
   - DOMAIN-SUFFIX,openart.ai
 
@@ -67,6 +73,13 @@ payload:
 
   # Synthesia / Core
   - DOMAIN-SUFFIX,synthesia.io
+
+  # Tencent AI / Core
+  - DOMAIN,api.hunyuan.cloud.tencent.com
+  - DOMAIN,hunyuan.tencentcloudapi.com
+  - DOMAIN-SUFFIX,hunyuan.tencent.com
+  - DOMAIN-SUFFIX,yuanbao.tencent.com
+  - DOMAIN-SUFFIX,yuanqi.tencent.com
 
   # Udio / Core
   - DOMAIN-SUFFIX,udio.com

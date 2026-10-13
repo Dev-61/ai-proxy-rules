@@ -338,13 +338,33 @@ describe("generators", () => {
     expect(providerToTarget(minimax).rules.domain).toEqual(["api.minimax.io", "api.minimaxi.com"]);
   });
 
-  it("aggregates providers by category", () => {
+  it("aggregates providers by category across global and cn scopes", () => {
     const targets = aggregateProvidersByCategory([anthropic, fixtureIde, minimax]);
 
-    expect(targets.map((target) => target.id)).toEqual(["coding", "model"]);
+    expect(targets.map((target) => target.id)).toEqual(["coding", "model", "media"]);
     expect(render("surge", targets[0]!).content).toContain("DOMAIN,api.fixture-ide.test");
     expect(render("surge", targets[1]!).content).toContain("DOMAIN,api.anthropic.com");
-    expect(targets.some((target) => target.rules.domain.includes("api.minimax.io"))).toBe(false);
+    expect(render("surge", targets[1]!).content).toContain("DOMAIN,api.minimax.io");
+    expect(render("surge", targets[2]!).content).toContain("DOMAIN,api.minimax.io");
+    expect(targets[0]!.rules.domain).not.toContain("api.minimax.io");
+    expect(targets[1]!.rules.domain).not.toContain("api.fixture-ide.test");
+    expect(targets[2]!.rules.domain).not.toContain("api.anthropic.com");
+  });
+
+  it("intersects category with scope and uses the combined Quantumult X policy", () => {
+    const providers = [anthropic, fixtureIde, minimax];
+    const overseas = aggregateProvidersByCategory(providers, "global");
+    const china = aggregateProvidersByCategory(providers, "cn");
+
+    expect(overseas.map((target) => target.id)).toEqual(["global-coding", "global-model"]);
+    expect(china.map((target) => target.id)).toEqual(["cn-model", "cn-media"]);
+    expect(overseas[0]!.rules.domain).toContain("api.fixture-ide.test");
+    expect(overseas[1]!.rules.domain).toEqual(["api.anthropic.com"]);
+    for (const target of china) {
+      expect(target.rules.domain).toEqual(["api.minimax.io", "api.minimaxi.com"]);
+      expect(render("quantumult-x", target).content).toContain(`HOST,api.minimax.io,${target.id}\n`);
+    }
+    expect(aggregateProvidersByCategory([], "cn")).toEqual([]);
   });
 
   it("deduplicates rendered all rules across provider groups", () => {

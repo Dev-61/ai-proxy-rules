@@ -1,0 +1,39 @@
+# AI Proxy Rules - China AI Coding Tools
+# Aggregated cn coding AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Alibaba AI / Core
+HOST,bailian.console.aliyun.com,cn-coding
+HOST,dashscope.aliyuncs.com,cn-coding
+HOST,qodercn-jb.oss-cn-hangzhou.aliyuncs.com,cn-coding
+HOST-SUFFIX,qianwen.aliyun.com,cn-coding
+HOST-SUFFIX,qianwen.com,cn-coding
+HOST-SUFFIX,qoder.cn,cn-coding
+HOST-SUFFIX,qoder.com.cn,cn-coding
+HOST-SUFFIX,qwen.ai,cn-coding
+HOST-SUFFIX,qwenlm.ai,cn-coding
+HOST-SUFFIX,tongyi.aliyun.com,cn-coding
+HOST-SUFFIX,tongyi.com,cn-coding
+
+# ByteDance AI (China) / Core
+HOST-SUFFIX,coze.cn,cn-coding
+HOST-SUFFIX,cozeapp.net,cn-coding
+HOST-SUFFIX,cozebaas.cn,cn-coding
+HOST-SUFFIX,cozebuild.com,cn-coding
+HOST-SUFFIX,cozecdn.com,cn-coding
+HOST-SUFFIX,cozedeploy.com,cn-coding
+HOST-SUFFIX,cozefn.cn,cn-coding
+HOST-SUFFIX,cozeide.cn,cn-coding
+HOST-SUFFIX,cozesdk.com,cn-coding
+HOST-SUFFIX,doudou.com,cn-coding
+HOST-SUFFIX,marscode.cn,cn-coding
+HOST-SUFFIX,marscode.com.cn,cn-coding
+HOST-SUFFIX,mcbaas.work,cn-coding
+HOST-SUFFIX,mcdemo.show,cn-coding
+HOST-SUFFIX,mchost.guru,cn-coding
+HOST-SUFFIX,mcprev.cn,cn-coding
+HOST-SUFFIX,tcwqqdy.guru,cn-coding
+HOST-SUFFIX,trae.cn,cn-coding
+HOST-SUFFIX,trae.com.cn,cn-coding
+HOST-SUFFIX,trae.guru,cn-coding
+HOST-SUFFIX,yoma.cn,cn-coding

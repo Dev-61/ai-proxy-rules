@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "bfl.ai",
+        "civitai.com",
+        "clipdrop.co",
+        "comfy.org",
+        "comfyregistry.org",
+        "descript.com",
+        "elevenlabs.com",
+        "elevenlabs.io",
+        "firefly.adobe.com",
+        "firefly.adobe.io",
+        "heygen.com",
+        "ideogram.ai",
+        "leonardo.ai",
+        "lovart.ai",
+        "lumalabs.ai",
+        "midjourney.com",
+        "openart.ai",
+        "pika.art",
+        "recraft.ai",
+        "runway.com",
+        "runwayml.com",
+        "stability.ai",
+        "suno.ai",
+        "suno.com",
+        "synthesia.io",
+        "udio.com"
+      ]
+    }
+  ]
+}

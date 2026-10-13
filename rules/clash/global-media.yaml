@@ -1,0 +1,72 @@
+# AI Proxy Rules - Overseas AI Media Tools
+# Aggregated global media AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+payload:
+  # Adobe Firefly / Core
+  - DOMAIN-SUFFIX,firefly.adobe.com
+  - DOMAIN-SUFFIX,firefly.adobe.io
+
+  # Black Forest Labs / Core
+  - DOMAIN-SUFFIX,bfl.ai
+
+  # Civitai / Core
+  - DOMAIN-SUFFIX,civitai.com
+
+  # ClipDrop / Core
+  - DOMAIN-SUFFIX,clipdrop.co
+
+  # ComfyUI / Core
+  - DOMAIN-SUFFIX,comfy.org
+  - DOMAIN-SUFFIX,comfyregistry.org
+
+  # Descript / Core
+  - DOMAIN-SUFFIX,descript.com
+
+  # ElevenLabs / Core
+  - DOMAIN-SUFFIX,elevenlabs.com
+  - DOMAIN-SUFFIX,elevenlabs.io
+
+  # HeyGen / Core
+  - DOMAIN-SUFFIX,heygen.com
+
+  # Ideogram / Core
+  - DOMAIN-SUFFIX,ideogram.ai
+
+  # Leonardo AI / Core
+  - DOMAIN-SUFFIX,leonardo.ai
+
+  # Lovart / Core
+  - DOMAIN-SUFFIX,lovart.ai
+
+  # Luma AI / Core
+  - DOMAIN-SUFFIX,lumalabs.ai
+
+  # Midjourney / Core
+  - DOMAIN-SUFFIX,midjourney.com
+
+  # OpenArt / Core
+  - DOMAIN-SUFFIX,openart.ai
+
+  # Pika / Core
+  - DOMAIN-SUFFIX,pika.art
+
+  # Recraft / Core
+  - DOMAIN-SUFFIX,recraft.ai
+
+  # Runway / Core
+  - DOMAIN-SUFFIX,runway.com
+  - DOMAIN-SUFFIX,runwayml.com
+
+  # Stability AI / Core
+  - DOMAIN-SUFFIX,stability.ai
+
+  # Suno / Core
+  - DOMAIN-SUFFIX,suno.ai
+  - DOMAIN-SUFFIX,suno.com
+
+  # Synthesia / Core
+  - DOMAIN-SUFFIX,synthesia.io
+
+  # Udio / Core
+  - DOMAIN-SUFFIX,udio.com

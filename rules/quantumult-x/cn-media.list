@@ -1,0 +1,16 @@
+# AI Proxy Rules - China AI Media Tools
+# Aggregated cn media AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# MiniMax / Core
+HOST,api.minimax.io,cn-media
+HOST,api.minimaxi.com,cn-media
+HOST-SUFFIX,hailuoai.com,cn-media
+HOST-SUFFIX,xingyeai.com,cn-media
+
+# Tencent AI / Core
+HOST,api.hunyuan.cloud.tencent.com,cn-media
+HOST,hunyuan.tencentcloudapi.com,cn-media
+HOST-SUFFIX,hunyuan.tencent.com,cn-media
+HOST-SUFFIX,yuanbao.tencent.com,cn-media
+HOST-SUFFIX,yuanqi.tencent.com,cn-media

@@ -3,6 +3,19 @@
 # https://github.com/VPSDance/ai-proxy-rules
 
 payload:
+  # Alibaba AI / Core
+  - DOMAIN,bailian.console.aliyun.com
+  - DOMAIN,dashscope.aliyuncs.com
+  - DOMAIN,qodercn-jb.oss-cn-hangzhou.aliyuncs.com
+  - DOMAIN-SUFFIX,qianwen.aliyun.com
+  - DOMAIN-SUFFIX,qianwen.com
+  - DOMAIN-SUFFIX,qoder.cn
+  - DOMAIN-SUFFIX,qoder.com.cn
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
+  - DOMAIN-SUFFIX,tongyi.aliyun.com
+  - DOMAIN-SUFFIX,tongyi.com
+
   # Anthropic / Core
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,anthropic.com.cn
@@ -59,6 +72,11 @@ payload:
   - DOMAIN-KEYWORD,sentry
   - DOMAIN-KEYWORD,sift
 
+  # Baidu AI / Core
+  - DOMAIN,ernie.baidu.com
+  - DOMAIN,qianfan.baidubce.com
+  - DOMAIN,yiyan.baidu.com
+
   # Cerebras / Core
   - DOMAIN-SUFFIX,cerebras.ai
 
@@ -75,6 +93,10 @@ payload:
 
   # DeepInfra / Core
   - DOMAIN-SUFFIX,deepinfra.com
+
+  # DeepSeek / Core
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,deepseeksvc.com
 
   # Fireworks AI / Core
   - DOMAIN-SUFFIX,fireworks.ai
@@ -150,8 +172,23 @@ payload:
   # LM Studio / Core
   - DOMAIN-SUFFIX,lmstudio.ai
 
+  # MiniMax / Core
+  - DOMAIN,api.minimax.io
+  - DOMAIN,api.minimaxi.com
+  - DOMAIN-SUFFIX,hailuoai.com
+  - DOMAIN-SUFFIX,xingyeai.com
+
   # Mistral AI / Core
   - DOMAIN-SUFFIX,mistral.ai
+
+  # ModelScope / Core
+  - DOMAIN-SUFFIX,modelscope.cn
+  - DOMAIN-SUFFIX,modelscope.com
+
+  # Moonshot AI / Core
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,moonshot.ai
+  - DOMAIN-SUFFIX,moonshot.cn
 
   # Novita AI / Core
   - DOMAIN-SUFFIX,novita.ai
@@ -216,10 +253,45 @@ payload:
   # OpenRouter / Core
   - DOMAIN-SUFFIX,openrouter.ai
 
+  # PPIO / Core
+  - DOMAIN-SUFFIX,ppio.cn
+  - DOMAIN-SUFFIX,ppio.com
+
   # Replicate / Core
   - DOMAIN-SUFFIX,replicate.com
   - DOMAIN-SUFFIX,replicate.delivery
 
+  # SiliconFlow / Core
+  - DOMAIN-SUFFIX,siliconflow.cn
+  - DOMAIN-SUFFIX,siliconflow.com
+
+  # StepFun / Core
+  - DOMAIN-SUFFIX,stepfun.ai
+  - DOMAIN-SUFFIX,stepfun.com
+
+  # Tencent AI / Core
+  - DOMAIN,api.hunyuan.cloud.tencent.com
+  - DOMAIN,hunyuan.tencentcloudapi.com
+  - DOMAIN-SUFFIX,hunyuan.tencent.com
+  - DOMAIN-SUFFIX,yuanbao.tencent.com
+  - DOMAIN-SUFFIX,yuanqi.tencent.com
+
   # Together AI / Core
   - DOMAIN-SUFFIX,together.ai
   - DOMAIN-SUFFIX,together.xyz
+
+  # Volcengine AI / Core
+  - DOMAIN,ark.cn-beijing.volces.com
+  - DOMAIN-SUFFIX,doubao.com
+
+  # Xiaomi AI / Core
+  - DOMAIN-SUFFIX,miaibox.com
+  - DOMAIN-SUFFIX,xiaoaiassist.com
+  - DOMAIN-SUFFIX,xiaomimimo.com
+
+  # Zhipu AI / Core
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,chatglm.cn
+  - DOMAIN-SUFFIX,z.ai
+  - DOMAIN-SUFFIX,zhipuai.cn
+  - DOMAIN-SUFFIX,zhipucn.com

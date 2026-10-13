@@ -11,7 +11,7 @@ import {
   providerToTarget
 } from "./data.js";
 import { render } from "./generators/index.js";
-import { formats, type Format, type ProviderSource, type RenderTarget } from "./types.js";
+import { formats, providerCategories, providerScopes, type Format, type ProviderSource, type RenderTarget } from "./types.js";
 
 interface GenerateOptions {
   input: string;
@@ -78,6 +78,15 @@ async function selectProviders(inputDir: string, providerOption: string): Promis
 }
 
 function buildTargets(providers: ProviderSource[], providerOption: string): RenderTarget[] {
+  const reservedIds = new Set<string>([
+    "all", ...providerScopes, ...providerCategories,
+    ...providerScopes.flatMap((scope) => providerCategories.map((category) => `${scope}-${category}`))
+  ]);
+  for (const provider of providers) {
+    if (reservedIds.has(provider.provider)) {
+      throw new Error(`Provider ID is reserved for an aggregate rule set: ${provider.provider}`);
+    }
+  }
   const providerTargets = providers.map(providerToTarget);
   const providerNames = parseCsv(providerOption);
 
@@ -85,6 +94,7 @@ function buildTargets(providers: ProviderSource[], providerOption: string): Rend
     return [
       ...providerTargets,
       ...aggregateProvidersByCategory(providers),
+      ...providerScopes.flatMap((scope) => aggregateProvidersByCategory(providers, scope)),
       aggregateProvidersByScope(providers, "cn", "cn", "China AI Providers", "Aggregated China AI provider rules."),
       aggregateProvidersByScope(providers, "global", "global", "Global AI Providers", "Aggregated global AI provider rules."),
       aggregateProviders(providers)

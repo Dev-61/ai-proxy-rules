@@ -1,0 +1,209 @@
+# AI Proxy Rules - Overseas AI Model Services
+# Aggregated global model AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Anthropic / Core
+HOST-SUFFIX,anthropic.com,global-model
+HOST-SUFFIX,anthropic.com.cn,global-model
+HOST-SUFFIX,antspace.dev,global-model
+HOST-SUFFIX,clau.de,global-model
+HOST-SUFFIX,claude.ai,global-model
+HOST-SUFFIX,claude.app,global-model
+HOST-SUFFIX,claude.com,global-model
+HOST-SUFFIX,claude.new,global-model
+HOST-SUFFIX,claude.site,global-model
+HOST-SUFFIX,claudemcpclient.com,global-model
+HOST-SUFFIX,claudemcpcontent.com,global-model
+HOST-SUFFIX,claudepages.dev,global-model
+HOST-SUFFIX,claudestudio.com,global-model
+HOST-SUFFIX,claudeusercontent.com,global-model
+HOST-SUFFIX,modelcontextprotocol.com,global-model
+HOST-SUFFIX,modelcontextprotocol.io,global-model
+HOST-SUFFIX,modelcontextprotocol.net,global-model
+HOST-SUFFIX,modelcontextprotocol.org,global-model
+
+# Anthropic / Network
+IP-CIDR,160.79.104.0/21,global-model,no-resolve
+IP6-CIDR,2607:6bc0::/32,global-model,no-resolve
+IP-ASN,399358,global-model,no-resolve
+
+# Anthropic / Third-Party
+HOST,anthropic-com.ghost.io,global-model
+HOST,anthropic.auth0.com,global-model
+HOST,anthropic.com.cdn.cloudflare.net,global-model
+HOST,browser-intake-us5-datadoghq.com,global-model
+HOST,cdn.growthbook.io,global-model
+HOST,cdn.usefathom.com,global-model
+HOST,servd-anthropic-website.b-cdn.net,global-model
+HOST,storage.googleapis.com,global-model
+HOST-SUFFIX,anthropic.team,global-model
+HOST-SUFFIX,chatbotclaude.com,global-model
+HOST-SUFFIX,claude.dev,global-model
+HOST-SUFFIX,intercom.io,global-model
+HOST-SUFFIX,intercomcdn.com,global-model
+HOST-SUFFIX,interface.feedback,global-model
+HOST-SUFFIX,lcicat.org,global-model
+HOST-SUFFIX,lcicollections.org,global-model
+HOST-SUFFIX,mcpservertest.online,global-model
+HOST-SUFFIX,muthos.com,global-model
+HOST-SUFFIX,sentry.io,global-model
+HOST-SUFFIX,sillylittleguy.org,global-model
+HOST-SUFFIX,statsigapi.net,global-model
+HOST-KEYWORD,datadog,global-model
+HOST-KEYWORD,sentry,global-model
+HOST-KEYWORD,sift,global-model
+
+# Cerebras / Core
+HOST-SUFFIX,cerebras.ai,global-model
+
+# Chutes / Core
+HOST-SUFFIX,chutes.ai,global-model
+
+# Cloudflare AI / Core
+HOST,api.cloudflare.com,global-model
+HOST-SUFFIX,ai.cloudflare.com,global-model
+
+# Cohere / Core
+HOST-SUFFIX,cohere.ai,global-model
+HOST-SUFFIX,cohere.com,global-model
+
+# DeepInfra / Core
+HOST-SUFFIX,deepinfra.com,global-model
+
+# Fireworks AI / Core
+HOST-SUFFIX,fireworks.ai,global-model
+
+# Google AI / Core
+HOST-SUFFIX,ai.google.dev,global-model
+HOST-SUFFIX,ai.studio,global-model
+HOST-SUFFIX,aistudio.google.com,global-model
+HOST-SUFFIX,antigravity.google,global-model
+HOST-SUFFIX,antigravity.google.com,global-model
+HOST-SUFFIX,bard.google.com,global-model
+HOST-SUFFIX,deepmind.com,global-model
+HOST-SUFFIX,deepmind.google,global-model
+HOST-SUFFIX,gemini.google,global-model
+HOST-SUFFIX,gemini.google.com,global-model
+HOST-SUFFIX,generativeai.google,global-model
+HOST-SUFFIX,generativelanguage.googleapis.com,global-model
+HOST-SUFFIX,notebooklm.google,global-model
+HOST-SUFFIX,notebooklm.google.com,global-model
+
+# Google AI / Third-Party
+HOST,alkalicore-pa.clients6.google.com,global-model
+HOST,alkalimakersuite-pa.clients6.google.com,global-model
+HOST,antigravity-pa.googleapis.com,global-model
+HOST,antigravity.googleapis.com,global-model
+HOST,cloudaicompanion.googleapis.com,global-model
+HOST,cloudcode-pa.googleapis.com,global-model
+HOST,daily-cloudcode-pa.googleapis.com,global-model
+HOST,geminiweb-pa.clients.google.com,global-model
+HOST,geminiweb-pa.clients6.google.com,global-model
+HOST,notebooklm-pa.googleapis.com,global-model
+HOST,notebooklm.googleapis.com,global-model
+HOST,webchannel-alkalimakersuite-pa.clients6.google.com,global-model
+HOST-SUFFIX,aicode.googleapis.com,global-model
+HOST-SUFFIX,aida.googleapis.com,global-model
+HOST-SUFFIX,aisandbox-pa.googleapis.com,global-model
+HOST-SUFFIX,antigravity-unleash.goog,global-model
+HOST-SUFFIX,flow.google,global-model
+HOST-SUFFIX,flow.google.com,global-model
+HOST-SUFFIX,geller-pa.googleapis.com,global-model
+HOST-SUFFIX,gemini.gstatic.com,global-model
+HOST-SUFFIX,jules.google,global-model
+HOST-SUFFIX,jules.google.com,global-model
+HOST-SUFFIX,labs.google,global-model
+HOST-SUFFIX,labs.google.com,global-model
+HOST-SUFFIX,labstailwind.pa.googleapis.com,global-model
+HOST-SUFFIX,makersuite.google.com,global-model
+HOST-SUFFIX,notebook.google,global-model
+HOST-SUFFIX,notebook.google.com,global-model
+HOST-SUFFIX,opal.google,global-model
+HOST-SUFFIX,opal.google.com,global-model
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,global-model
+HOST-SUFFIX,robinfrontend-pa.googleapis.com,global-model
+HOST-SUFFIX,stitch.withgoogle.com,global-model
+
+# Groq / Core
+HOST-SUFFIX,groq.com,global-model
+
+# H2O.ai / Core
+HOST-SUFFIX,h2o.ai,global-model
+
+# Hugging Face / Core
+HOST-SUFFIX,hf.co,global-model
+HOST-SUFFIX,hf.space,global-model
+HOST-SUFFIX,huggingface.co,global-model
+
+# LMArena / Core
+HOST-SUFFIX,lmarena.ai,global-model
+
+# LM Studio / Core
+HOST-SUFFIX,lmstudio.ai,global-model
+
+# Mistral AI / Core
+HOST-SUFFIX,mistral.ai,global-model
+
+# Novita AI / Core
+HOST-SUFFIX,novita.ai,global-model
+
+# Ollama / Core
+HOST-SUFFIX,ollama.com,global-model
+
+# OpenAI / Core
+HOST-SUFFIX,ai.com,global-model
+HOST-SUFFIX,chat.com,global-model
+HOST-SUFFIX,chatgpt.com,global-model
+HOST-SUFFIX,chatgpt.livekit.cloud,global-model
+HOST-SUFFIX,crixet.com,global-model
+HOST-SUFFIX,oaistatic.com,global-model
+HOST-SUFFIX,oaiusercontent.com,global-model
+HOST-SUFFIX,openai.com,global-model
+HOST-SUFFIX,openaiapi-site.azureedge.net,global-model
+HOST-SUFFIX,openaicom.imgix.net,global-model
+HOST-SUFFIX,sora.com,global-model
+HOST-KEYWORD,chatgpt-async-webps-prod,global-model
+HOST-KEYWORD,openai,global-model
+
+# OpenAI / Network
+IP-CIDR,199.47.142.0/23,global-model,no-resolve
+IP-CIDR,24.199.123.28/32,global-model,no-resolve
+IP-CIDR,64.23.132.171/32,global-model,no-resolve
+IP6-CIDR,2604:f20::/32,global-model,no-resolve
+IP-ASN,401518,global-model,no-resolve
+
+# OpenAI / Third-Party
+HOST,browser-intake-datadoghq.com,global-model
+HOST,openai-api.arkoselabs.com,global-model
+HOST,openaiassets.blob.core.windows.net,global-model
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,global-model
+HOST,openaicomproductionae4b.blob.core.windows.net,global-model
+HOST,production-openaicom-storage.azureedge.net,global-model
+HOST,static.cloudflareinsights.com,global-model
+HOST-SUFFIX,algolia.net,global-model
+HOST-SUFFIX,api.statsig.com,global-model
+HOST-SUFFIX,auth0.com,global-model
+HOST-SUFFIX,chatgpt.site,global-model
+HOST-SUFFIX,client-api.arkoselabs.com,global-model
+HOST-SUFFIX,events.statsigapi.net,global-model
+HOST-SUFFIX,featuregates.org,global-model
+HOST-SUFFIX,host.livekit.cloud,global-model
+HOST-SUFFIX,identrust.com,global-model
+HOST-SUFFIX,launchdarkly.com,global-model
+HOST-SUFFIX,oaistatsig.com,global-model
+HOST-SUFFIX,observeit.net,global-model
+HOST-SUFFIX,openai.com.cdn.cloudflare.net,global-model
+HOST-SUFFIX,segment.io,global-model
+HOST-SUFFIX,stripe.com,global-model
+HOST-SUFFIX,turn.livekit.cloud,global-model
+
+# OpenRouter / Core
+HOST-SUFFIX,openrouter.ai,global-model
+
+# Replicate / Core
+HOST-SUFFIX,replicate.com,global-model
+HOST-SUFFIX,replicate.delivery,global-model
+
+# Together AI / Core
+HOST-SUFFIX,together.ai,global-model
+HOST-SUFFIX,together.xyz,global-model

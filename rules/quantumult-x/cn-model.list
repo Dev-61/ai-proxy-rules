@@ -1,0 +1,75 @@
+# AI Proxy Rules - China AI Model Services
+# Aggregated cn model AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Alibaba AI / Core
+HOST,bailian.console.aliyun.com,cn-model
+HOST,dashscope.aliyuncs.com,cn-model
+HOST,qodercn-jb.oss-cn-hangzhou.aliyuncs.com,cn-model
+HOST-SUFFIX,qianwen.aliyun.com,cn-model
+HOST-SUFFIX,qianwen.com,cn-model
+HOST-SUFFIX,qoder.cn,cn-model
+HOST-SUFFIX,qoder.com.cn,cn-model
+HOST-SUFFIX,qwen.ai,cn-model
+HOST-SUFFIX,qwenlm.ai,cn-model
+HOST-SUFFIX,tongyi.aliyun.com,cn-model
+HOST-SUFFIX,tongyi.com,cn-model
+
+# Baidu AI / Core
+HOST,ernie.baidu.com,cn-model
+HOST,qianfan.baidubce.com,cn-model
+HOST,yiyan.baidu.com,cn-model
+
+# DeepSeek / Core
+HOST-SUFFIX,deepseek.com,cn-model
+HOST-SUFFIX,deepseeksvc.com,cn-model
+
+# MiniMax / Core
+HOST,api.minimax.io,cn-model
+HOST,api.minimaxi.com,cn-model
+HOST-SUFFIX,hailuoai.com,cn-model
+HOST-SUFFIX,xingyeai.com,cn-model
+
+# ModelScope / Core
+HOST-SUFFIX,modelscope.cn,cn-model
+HOST-SUFFIX,modelscope.com,cn-model
+
+# Moonshot AI / Core
+HOST-SUFFIX,kimi.com,cn-model
+HOST-SUFFIX,moonshot.ai,cn-model
+HOST-SUFFIX,moonshot.cn,cn-model
+
+# PPIO / Core
+HOST-SUFFIX,ppio.cn,cn-model
+HOST-SUFFIX,ppio.com,cn-model
+
+# SiliconFlow / Core
+HOST-SUFFIX,siliconflow.cn,cn-model
+HOST-SUFFIX,siliconflow.com,cn-model
+
+# StepFun / Core
+HOST-SUFFIX,stepfun.ai,cn-model
+HOST-SUFFIX,stepfun.com,cn-model
+
+# Tencent AI / Core
+HOST,api.hunyuan.cloud.tencent.com,cn-model
+HOST,hunyuan.tencentcloudapi.com,cn-model
+HOST-SUFFIX,hunyuan.tencent.com,cn-model
+HOST-SUFFIX,yuanbao.tencent.com,cn-model
+HOST-SUFFIX,yuanqi.tencent.com,cn-model
+
+# Volcengine AI / Core
+HOST,ark.cn-beijing.volces.com,cn-model
+HOST-SUFFIX,doubao.com,cn-model
+
+# Xiaomi AI / Core
+HOST-SUFFIX,miaibox.com,cn-model
+HOST-SUFFIX,xiaoaiassist.com,cn-model
+HOST-SUFFIX,xiaomimimo.com,cn-model
+
+# Zhipu AI / Core
+HOST-SUFFIX,bigmodel.cn,cn-model
+HOST-SUFFIX,chatglm.cn,cn-model
+HOST-SUFFIX,z.ai,cn-model
+HOST-SUFFIX,zhipuai.cn,cn-model
+HOST-SUFFIX,zhipucn.com,cn-model
