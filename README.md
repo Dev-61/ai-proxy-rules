@@ -11,14 +11,10 @@ AI 服务分流规则, 每日自动更新. 整合 v2fly, blackmatrix7 等上游�
 | 分类 | 规则集名称 | 包含的服务 |
 | --- | --- | --- |
 | 全部 | `all` | 中国 + 海外 |
-| 海外 | `global` | 所有海外 AI 服务 |
-| 中国 | `cn` | 所有中国 AI 服务 |
-| 用途 / 编程 | `coding` | 中国及海外 AI 编程工具 |
-| 用途 / 模型 | `model` | 中国及海外模型与 API 服务 |
-| 用途 / 媒体 | `media` | 中国及海外图片, 视频和音频生成服务 |
-| 海外 + 用途 | `global-coding`, `global-model`, `global-media` | 对应用途的海外服务 |
-| 中国 + 用途 | `cn-coding`, `cn-model`, `cn-media` | 对应用途的中国服务 |
-| 单个服务 | 如 `openai`, `anthropic`, `cursor` | 仅对应服务, 完整列表见[支持的服务](#支持的服务) |
+| 地区 | `global` / `cn` | 海外 / 中国 |
+| 用途 | `coding` / `model` / `media` | 编程工具 / 模型与 API / 图片, 视频和音频生成, 均包含中国及海外 |
+| 地区 + 用途 | `地区-用途`, 支持上述全部组合 | 如 `global-coding` 为海外编程工具, `cn-model` 为中国模型与 API 服务 |
+| 单个服务 | `openai`, `anthropic` 等 | 仅对应服务, 完整列表见[支持的服务](#支持的服务) |
 
 以下是 `global` 规则集在各客户端中的订阅地址:
 
@@ -44,8 +40,6 @@ https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/anthropic.y
 > 国内 jsDelivr 偶尔不稳定时, 可把 `cdn.jsdelivr.net` 替换为 `testingcf.jsdelivr.net`, `fastly.jsdelivr.net` 或 `cdn.jsdmirror.com` 等镜像.
 
 ## 分流顺序
-
-`coding`, `model`, `media` 现已包含中国服务. 如需中国服务直连, 请将 `cn` 的直连规则放在用途规则之前.
 
 规则会从上到下匹配, 命中后停止. 要让 OpenAI 使用单独的策略, `openai` 必须写在包含它的 `global` 或 `all` 前面. 例如, 让 OpenAI 使用美国节点, 中国 AI 服务直连, 其余海外 AI 服务使用通用代理时, 可以这样写:
 
