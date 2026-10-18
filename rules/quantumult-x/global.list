@@ -182,6 +182,7 @@ HOST-SUFFIX,cursor-cdn.com,global
 HOST-SUFFIX,cursor.com,global
 HOST-SUFFIX,cursor.sh,global
 HOST-SUFFIX,cursorapi.com,global
+HOST-SUFFIX,cursorvm.com,global
 
 # DeepInfra / Core
 HOST-SUFFIX,deepinfra.com,global

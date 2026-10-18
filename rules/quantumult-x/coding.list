@@ -184,6 +184,7 @@ HOST-SUFFIX,cursor-cdn.com,coding
 HOST-SUFFIX,cursor.com,coding
 HOST-SUFFIX,cursor.sh,coding
 HOST-SUFFIX,cursorapi.com,coding
+HOST-SUFFIX,cursorvm.com,coding
 
 # Devin / Core
 HOST-SUFFIX,devin.ai,coding

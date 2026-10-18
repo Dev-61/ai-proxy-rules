@@ -223,6 +223,7 @@ HOST-SUFFIX,cursor-cdn.com,all
 HOST-SUFFIX,cursor.com,all
 HOST-SUFFIX,cursor.sh,all
 HOST-SUFFIX,cursorapi.com,all
+HOST-SUFFIX,cursorvm.com,all
 
 # DeepInfra / Core
 HOST-SUFFIX,deepinfra.com,all
