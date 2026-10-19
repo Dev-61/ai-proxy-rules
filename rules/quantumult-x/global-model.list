@@ -193,6 +193,7 @@ HOST-SUFFIX,launchdarkly.com,global-model
 HOST-SUFFIX,oaistatsig.com,global-model
 HOST-SUFFIX,observeit.net,global-model
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,global-model
+HOST-SUFFIX,openai.org,global-model
 HOST-SUFFIX,segment.io,global-model
 HOST-SUFFIX,stripe.com,global-model
 HOST-SUFFIX,turn.livekit.cloud,global-model

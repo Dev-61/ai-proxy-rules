@@ -398,6 +398,7 @@ HOST-SUFFIX,chatgpt.site,global
 HOST-SUFFIX,host.livekit.cloud,global
 HOST-SUFFIX,oaistatsig.com,global
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,global
+HOST-SUFFIX,openai.org,global
 HOST-SUFFIX,turn.livekit.cloud,global
 
 # OpenArt / Core

@@ -244,6 +244,7 @@ domain_suffix_set:
   - "opal.google.com"
   - "openai.com"
   - "openai.com.cdn.cloudflare.net"
+  - "openai.org"
   - "openaiapi-site.azureedge.net"
   - "openaicom.imgix.net"
   - "openart.ai"

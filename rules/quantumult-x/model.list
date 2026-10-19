@@ -230,6 +230,7 @@ HOST-SUFFIX,launchdarkly.com,model
 HOST-SUFFIX,oaistatsig.com,model
 HOST-SUFFIX,observeit.net,model
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,model
+HOST-SUFFIX,openai.org,model
 HOST-SUFFIX,segment.io,model
 HOST-SUFFIX,stripe.com,model
 HOST-SUFFIX,turn.livekit.cloud,model

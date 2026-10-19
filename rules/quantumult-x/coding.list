@@ -301,6 +301,7 @@ HOST-SUFFIX,chatgpt.site,coding
 HOST-SUFFIX,host.livekit.cloud,coding
 HOST-SUFFIX,oaistatsig.com,coding
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,coding
+HOST-SUFFIX,openai.org,coding
 HOST-SUFFIX,turn.livekit.cloud,coding
 
 # OpenCode / Core

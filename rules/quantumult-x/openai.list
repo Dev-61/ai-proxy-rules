@@ -47,6 +47,7 @@ HOST-SUFFIX,launchdarkly.com,openai
 HOST-SUFFIX,oaistatsig.com,openai
 HOST-SUFFIX,observeit.net,openai
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,openai
+HOST-SUFFIX,openai.org,openai
 HOST-SUFFIX,segment.io,openai
 HOST-SUFFIX,sentry.io,openai
 HOST-SUFFIX,statsigapi.net,openai
