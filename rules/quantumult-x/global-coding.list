@@ -53,9 +53,12 @@ HOST,cdn.growthbook.io,global-coding
 HOST,cdn.usefathom.com,global-coding
 HOST,servd-anthropic-website.b-cdn.net,global-coding
 HOST,storage.googleapis.com,global-coding
+HOST-SUFFIX,//github.com/aprilnea/reverse-engineering-claude-code-antspace,global-coding
+HOST-SUFFIX,ant.dev,global-coding
 HOST-SUFFIX,anthropic.team,global-coding
 HOST-SUFFIX,chatbotclaude.com,global-coding
 HOST-SUFFIX,claude.dev,global-coding
+HOST-SUFFIX,claudeacademy.com,global-coding
 HOST-SUFFIX,intercom.io,global-coding
 HOST-SUFFIX,intercomcdn.com,global-coding
 HOST-SUFFIX,interface.feedback,global-coding

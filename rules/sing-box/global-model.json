@@ -35,6 +35,7 @@
     },
     {
       "domain_suffix": [
+        "//github.com/aprilnea/reverse-engineering-claude-code-antspace",
         "ai.cloudflare.com",
         "ai.com",
         "ai.google.dev",
@@ -44,6 +45,7 @@
         "aisandbox-pa.googleapis.com",
         "aistudio.google.com",
         "algolia.net",
+        "ant.dev",
         "anthropic.com",
         "anthropic.com.cn",
         "anthropic.team",
@@ -68,6 +70,7 @@
         "claude.dev",
         "claude.new",
         "claude.site",
+        "claudeacademy.com",
         "claudemcpclient.com",
         "claudemcpcontent.com",
         "claudepages.dev",
