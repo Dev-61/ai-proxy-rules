@@ -40,20 +40,15 @@ https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/anthropic.y
 
 ## 分流顺序
 
-**规则从上往下匹配, 排在前面的规则优先.** 以下为 Clash / Mihomo 示例:
+规则从上往下匹配, 排在前面的规则优先. Clash / Mihomo 示例:
 
 ```yaml
 rules:
-  - RULE-SET,openai,AI-US
-  - RULE-SET,global,AI-OVERSEAS
+  - RULE-SET,openai,AI-US        # OpenAI 使用 AI-US
+  - RULE-SET,global,AI-OVERSEAS  # 其余海外 AI 服务使用 AI-OVERSEAS
 ```
 
-| 字段 | 含义 |
-| --- | --- |
-| `openai` / `global` | 已添加的规则集名称, 分别对应 OpenAI / 所有海外 AI 服务 |
-| `AI-US` / `AI-OVERSEAS` | 使用的节点或策略组, 替换为自己的名称 |
-
-访问 OpenAI 时, 先匹配第一条, 使用 `AI-US` 节点或策略组; 访问其他海外 AI 服务时, 匹配第二条, 使用 `AI-OVERSEAS` 节点或策略组.
+`openai` / `global` 是已添加的规则集名称, `AI-US` / `AI-OVERSEAS` 替换为自己的节点或策略组名称.
 
 ## 支持的服务
 
