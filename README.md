@@ -40,16 +40,20 @@ https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/anthropic.y
 
 ## 分流顺序
 
-规则会从上到下匹配, 命中后停止. 要让 OpenAI 使用单独的策略, `openai` 必须写在包含它的 `global` 或 `all` 前面. 例如, 让 OpenAI 使用美国节点, 中国 AI 服务直连, 其余海外 AI 服务使用通用代理时, 可以这样写:
+**规则从上往下匹配, 排在前面的规则优先.** 以下为 Clash / Mihomo 示例:
 
 ```yaml
 rules:
-  - RULE-SET,openai,AI-US        # OpenAI / ChatGPT 使用美国节点
-  - RULE-SET,cn,DIRECT            # 中国 AI 服务直连
-  - RULE-SET,global,AI-OVERSEAS   # 其余海外 AI 服务使用通用代理
+  - RULE-SET,openai,AI-US
+  - RULE-SET,global,AI-OVERSEAS
 ```
 
-对应的 rule-provider 需要已在配置中添加. `AI-US` 和 `AI-OVERSEAS` 是示例策略名, 请替换成实际策略.
+| 字段 | 含义 |
+| --- | --- |
+| `openai` / `global` | 已添加的规则集名称, 分别对应 OpenAI / 所有海外 AI 服务 |
+| `AI-US` / `AI-OVERSEAS` | 使用的节点或策略组, 替换为自己的名称 |
+
+访问 OpenAI 时, 先匹配第一条, 使用 `AI-US` 节点或策略组; 访问其他海外 AI 服务时, 匹配第二条, 使用 `AI-OVERSEAS` 节点或策略组.
 
 ## 支持的服务
 
