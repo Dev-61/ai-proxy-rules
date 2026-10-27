@@ -1,14 +1,14 @@
 # STATUS
 
 Last generated: 2026-10-27
-Providers: 102 · Total rules: 435
+Providers: 102 · Total rules: 431
 
 | Provider | ID | Scope | Categories | Aliases | Rules | Sources |
 |---|---|---|---|---|---:|---|
 | Adobe Firefly | `adobe-firefly` | global | media | - | 2 | _handwritten_ |
 | Alibaba AI | `alibaba-ai` | cn | coding, model | bailian, dashscope, qoder-cn, qwen, tongyi | 11 | _handwritten_ |
 | Amazon Q Developer | `amazon-q` | global | coding | q-developer | 15 | _handwritten_ |
-| Anthropic | `anthropic` | global | coding, model | claude, claude-code | 53 | net-coffee, fetched 2026-10-27; xiaolai, fetched 2026-10-27; v2fly, fetched 2026-10-27 |
+| Anthropic | `anthropic` | global | coding, model | claude, claude-code | 52 | net-coffee, fetched 2026-10-27; xiaolai, fetched 2026-10-27; v2fly, fetched 2026-10-27 |
 | Augment Code | `augment-code` | global | coding | augment, auggie | 4 | _handwritten_ |
 | Baidu AI | `baidu-ai` | cn | model | qianfan, ernie, wenxin | 3 | _handwritten_ |
 | Black Forest Labs | `black-forest-labs` | global | media | flux | 1 | _handwritten_ |
@@ -43,7 +43,7 @@ Providers: 102 · Total rules: 435
 | Fireworks AI | `fireworks-ai` | global | model | - | 1 | _handwritten_ |
 | Gamma | `gamma` | global | - | - | 1 | _handwritten_ |
 | Genspark | `genspark` | global | - | - | 1 | _handwritten_ |
-| Google AI | `google-ai` | global | coding, model | gemini, ai-studio, notebooklm, antigravity | 53 | blackmatrix7, fetched 2026-10-27; v2fly, fetched 2026-10-27 |
+| Google AI | `google-ai` | global | coding, model | gemini, ai-studio, notebooklm, antigravity | 50 | blackmatrix7, fetched 2026-10-27; v2fly, fetched 2026-10-27 |
 | Grammarly | `grammarly` | global | - | - | 1 | _handwritten_ |
 | Groq | `groq` | global | model | - | 1 | v2fly, fetched 2026-10-27 |
 | H2O.ai | `h2o-ai` | global | model | - | 1 | _handwritten_ |

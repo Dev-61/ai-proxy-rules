@@ -12,9 +12,6 @@
         "antigravity.googleapis.com",
         "api.msn.com",
         "api.statsig.com",
-        "appsgenaiserver-pa.clients.google.com",
-        "appsgenaiserver-pa.clients6.google.com",
-        "appsgenaiserver-pa.googleapis.com",
         "assets.msn.com",
         "aws-language-servers.us-east-1.amazonaws.com",
         "aws-toolkit-language-servers.amazonaws.com",
@@ -61,7 +58,6 @@
     },
     {
       "domain_suffix": [
-        "//github.com/aprilnea/reverse-engineering-claude-code-antspace",
         "abtestvm-sg.bytedance.com",
         "ai.com",
         "ai.google.dev",

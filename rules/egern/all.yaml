@@ -20,9 +20,6 @@ domain_set:
   - "api.minimaxi.com"
   - "api.msn.com"
   - "api.statsig.com"
-  - "appsgenaiserver-pa.clients.google.com"
-  - "appsgenaiserver-pa.clients6.google.com"
-  - "appsgenaiserver-pa.googleapis.com"
   - "ark.cn-beijing.volces.com"
   - "assets.msn.com"
   - "aws-language-servers.us-east-1.amazonaws.com"
@@ -75,7 +72,6 @@ domain_set:
   - "webchannel-alkalimakersuite-pa.clients6.google.com"
   - "yiyan.baidu.com"
 domain_suffix_set:
-  - "//github.com/aprilnea/reverse-engineering-claude-code-antspace"
   - "abtestvm-sg.bytedance.com"
   - "ai.cloudflare.com"
   - "ai.com"

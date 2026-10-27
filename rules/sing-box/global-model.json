@@ -11,9 +11,6 @@
         "antigravity-pa.googleapis.com",
         "antigravity.googleapis.com",
         "api.cloudflare.com",
-        "appsgenaiserver-pa.clients.google.com",
-        "appsgenaiserver-pa.clients6.google.com",
-        "appsgenaiserver-pa.googleapis.com",
         "browser-intake-datadoghq.com",
         "browser-intake-us5-datadoghq.com",
         "cdn.growthbook.io",
@@ -38,7 +35,6 @@
     },
     {
       "domain_suffix": [
-        "//github.com/aprilnea/reverse-engineering-claude-code-antspace",
         "ai.cloudflare.com",
         "ai.com",
         "ai.google.dev",

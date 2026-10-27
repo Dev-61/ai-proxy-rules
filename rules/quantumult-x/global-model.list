@@ -36,7 +36,6 @@ HOST,cdn.growthbook.io,global-model
 HOST,cdn.usefathom.com,global-model
 HOST,servd-anthropic-website.b-cdn.net,global-model
 HOST,storage.googleapis.com,global-model
-HOST-SUFFIX,//github.com/aprilnea/reverse-engineering-claude-code-antspace,global-model
 HOST-SUFFIX,ant.dev,global-model
 HOST-SUFFIX,anthropic.team,global-model
 HOST-SUFFIX,chatbotclaude.com,global-model
@@ -97,9 +96,6 @@ HOST,alkalicore-pa.clients6.google.com,global-model
 HOST,alkalimakersuite-pa.clients6.google.com,global-model
 HOST,antigravity-pa.googleapis.com,global-model
 HOST,antigravity.googleapis.com,global-model
-HOST,appsgenaiserver-pa.clients.google.com,global-model
-HOST,appsgenaiserver-pa.clients6.google.com,global-model
-HOST,appsgenaiserver-pa.googleapis.com,global-model
 HOST,cloudaicompanion.googleapis.com,global-model
 HOST,cloudcode-pa.googleapis.com,global-model
 HOST,daily-cloudcode-pa.googleapis.com,global-model

@@ -14,9 +14,6 @@
         "api.hunyuan.cloud.tencent.com",
         "api.minimax.io",
         "api.minimaxi.com",
-        "appsgenaiserver-pa.clients.google.com",
-        "appsgenaiserver-pa.clients6.google.com",
-        "appsgenaiserver-pa.googleapis.com",
         "ark.cn-beijing.volces.com",
         "bailian.console.aliyun.com",
         "browser-intake-datadoghq.com",
@@ -49,7 +46,6 @@
     },
     {
       "domain_suffix": [
-        "//github.com/aprilnea/reverse-engineering-claude-code-antspace",
         "ai.cloudflare.com",
         "ai.com",
         "ai.google.dev",
