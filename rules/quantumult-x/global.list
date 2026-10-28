@@ -245,6 +245,9 @@ HOST,alkalicore-pa.clients6.google.com,global
 HOST,alkalimakersuite-pa.clients6.google.com,global
 HOST,antigravity-pa.googleapis.com,global
 HOST,antigravity.googleapis.com,global
+HOST,appsgenaiserver-pa.clients.google.com,global
+HOST,appsgenaiserver-pa.clients6.google.com,global
+HOST,appsgenaiserver-pa.googleapis.com,global
 HOST,cloudaicompanion.googleapis.com,global
 HOST,cloudcode-pa.googleapis.com,global
 HOST,daily-cloudcode-pa.googleapis.com,global
@@ -352,6 +355,7 @@ HOST-SUFFIX,atmeta.com,global
 HOST-SUFFIX,llama.com,global
 HOST-SUFFIX,llamameta.net,global
 HOST-SUFFIX,meta.ai,global
+HOST-SUFFIX,metaaiusercontent.com,global
 HOST-SUFFIX,metaaivm.com,global
 HOST-SUFFIX,muse.ai,global
 
